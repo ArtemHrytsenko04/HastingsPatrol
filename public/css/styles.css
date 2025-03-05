@@ -48,3 +48,39 @@ body {
 .card .btn {
   font-weight: bold;
 }
+
+/* Sponsor carousel styles */
+.sponsors-carousel {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  background: #f8f9fa;
+  padding: 20px 0px;
+}
+
+.sponsors-track {
+  display: flex;
+  gap: 40px;
+  animation: scroll 10s linear infinite;
+}
+.sponsors-track img {
+  width: 180px;
+  height: auto;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+footer a:hover {
+  color: #ffc107;
+  transition: 0.3s;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
