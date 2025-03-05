@@ -1,9 +1,50 @@
+/* Font Inter (300, 400, 700) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+/*CSS Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h1 {
-  color: red;
+/* The body section */
+body {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* Override the pre-defined Bootstrap color for navbar. WITHOUT IMPORTANT WON'T WORK */
+.navbar-light {
+  background-color: #f5f5f5 !important;
+}
+
+/* Styles for cards in the main section (can be adjusted) */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+/* Hover effect for the card to go up on Y axis */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Change the font for card-headings */
+.card h4 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Change the font for card-paragraph */
+.card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Change the font-weight for card buttons */
+.card .btn {
+  font-weight: bold;
 }
