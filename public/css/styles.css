@@ -49,6 +49,8 @@ body {
   font-weight: bold;
 }
 
+/*What we do section */
+
 /* Sponsor carousel styles */
 .sponsors-carousel {
   overflow: hidden;
@@ -83,4 +85,21 @@ footer a:hover {
   to {
     transform: translateX(-100%);
   }
+}
+
+/* About us page styling */
+
+hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("your-image.jpg") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+.partner-logo img {
+  max-width: 150px;
+  transition: transform 0.3s ease;
+}
+.partner-logo img:hover {
+  transform: scale(1.1);
 }

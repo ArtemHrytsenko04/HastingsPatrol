@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container d-flex align-items-center">
+        <!-- Logo aligned on the left of the webpage -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="/public/images/Heretaunga-Hastings-logo.png"
+            alt="Logo"
+            width="80"
+            class="img-fluid"
+          />
+        </a>
+
+        <!-- Button for mobile devices-->
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/src/pages/about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/src/pages/sponsors.html"
+                >Sponsors</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/src/pages/volunteer.html"
+                >Volunteer</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/src/pages/contact.html"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-5">
+      <!-- Main Heading -->
+      <h1 class="display-4 text-center fw-bold">Contact Us</h1>
+
+      <p class="text-center text-muted">
+        If it's an emergency or you are in danger, call
+        <strong>111</strong> immediately.
+      </p>
+
+      <p class="text-center">
+        Alternatively, contact the Police on <strong>105 (Ten-Five)</strong> for
+        non-urgent incidents 24/7. You can also report to
+        <a href="#" class="text-primary">105 online</a>.
+      </p>
+
+      <p class="text-center">
+        Get in touch with us using the form below regarding volunteer
+        opportunities, donations, events, and more.
+      </p>
+
+      <p class="text-center">
+        You can also reach us via email:
+        <a href="mailto:hastings@cpnz.org.nz" class="fw-bold text-primary"
+          >hastings@cpnz.org.nz</a
+        >
+      </p>
+
+      <p class="text-center">
+        We are based at <strong>Hastings Police Station.</strong>
+      </p>
+
+      <!-- Contact Form -->
+      <div class="card shadow-sm border-0 p-4 my-4">
+        <h2 class="fw-bold">Send us a message</h2>
+        <form>
+          <div class="mb-3">
+            <label for="firstName" class="form-label">First Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="firstName"
+              placeholder="John"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastName"
+              placeholder="Doe"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="john@example.com"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="phone"
+              placeholder="+64 123 456 789"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Subject:</label>
+            <div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="subject"
+                  id="generalEnquiry"
+                  checked
+                />
+                <label class="form-check-label" for="generalEnquiry"
+                  >General Enquiry</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="subject"
+                  id="volunteer"
+                />
+                <label class="form-check-label" for="volunteer"
+                  >Volunteer</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              placeholder="Enter your message here..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <!-- Facebook Section -->
+      <div class="text-center mt-4">
+        <h3 class="fw-bold">Find us on Facebook:</h3>
+        <a href="#" target="_blank">
+          <img
+            src="facebook-logo.png"
+            alt="Facebook"
+            class="img-fluid"
+            style="max-width: 150px"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!--Bootstrap Popper-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Bootstrap JS plugins-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
