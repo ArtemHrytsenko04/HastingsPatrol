@@ -27,9 +27,9 @@
         <!-- Logo aligned on the left of the webpage -->
         <a class="navbar-brand" href="#">
           <img
-            src="/public/images/Heretaunga-Hastings-logo.png"
+            src="/public/images/MainLogo.png"
             alt="Logo"
-            width="80"
+            width="200"
             class="img-fluid"
           />
         </a>
@@ -82,7 +82,12 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Donate</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/src/pages/donate.html"
+                >Donate</a
+              >
             </li>
           </ul>
         </div>
@@ -95,26 +100,27 @@
       <p class="lead">The Eyes and Ears of the New Zealand Police.</p>
 
       <!-- CTA Button -->
-      <a href="#" class="btn btn-primary btn-lg">Join Us</a>
+      <a href="/src/pages/volunteer.html" class="btn btn-primary btn-lg"
+        >Join Us</a
+      >
 
       <!-- Photo of the car -->
       <div class="mt-4">
         <img
           src="/public/images/events/received_9115940648441982.jpeg"
           class="img-fluid rounded"
-          height="1080"
-          width="1080"
+          height="auto"
+          width="60%"
           alt="Community Patrol Car"
         />
       </div>
 
       <!-- Short info about the Hastings Community Patrol using Bootstrap cards (see docs) -->
-      <div class="row mt-5">
+      <div class="row mt-5 pb-5">
         <!-- First card -->
         <div class="col-md-4 mt-2">
           <div class="card shadow border-0 p-3 h-100">
             <div class="card-body text-center">
-              <!-- Icon (doesn't display properly, TO BE FIXED LATER) -->
               <h4 class="fw-bold text-uppercase mt-3">
                 <i class="bi bi-shield-lock px-1"></i>Our Mission
               </h4>
@@ -123,7 +129,9 @@
                 make our community safer by patrolling the streets and providing
                 assistance.
               </p>
-              <a href="#" class="btn btn-outline-primary">Learn More</a>
+              <a href="./src/pages/about.html" class="btn btn-outline-primary"
+                >Learn More</a
+              >
             </div>
           </div>
         </div>
@@ -140,7 +148,9 @@
                 community. Get training, experience, and be part of a great
                 team!
               </p>
-              <a href="volunteer.html" class="btn btn-outline-success"
+              <a
+                href="/src/pages/volunteer.html"
+                class="btn btn-outline-success"
                 >Apply Now</a
               >
             </div>
@@ -152,75 +162,15 @@
           <div class="card shadow border-0 p-3 h-100">
             <div class="card-body text-center">
               <h4 class="fw-bold text-uppercase mt-3">
-                <i class="bi bi-graph-up px-1"></i>Our Impact
+                <i class="bi bi-envelope px-1"></i>Get In Touch
               </h4>
               <p class="text-muted">
-                Over <strong>500+ hours</strong> of patrols this year, reducing
-                crime rates and supporting local initiatives.
+                Have <strong>questions</strong> or
+                <strong>want to support </strong>our mission? We'd love to hear
+                from you - reach out and connect with us today.
               </p>
-              <a href="impact.html" class="btn btn-outline-warning"
-                >See Stats</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--What we do section-->
-      <h1 class="fw-bold mt-5">What we do</h1>
-      <div class="row mt-5">
-        <!-- First card -->
-        <div class="col-md-4 mb-5">
-          <div class="card shadow border-0 p-3 h-100">
-            <div class="card-body text-center">
-              <h4 class="fw-bold text-uppercase mt-3">
-                <i class="bi bi-shield-lock"></i>Our Mission
-              </h4>
-              <p class="text-muted">
-                We work alongside the <strong>New Zealand Police</strong> to
-                make our community safer by patrolling the streets and providing
-                assistance.
-              </p>
-              <a href="#" class="btn btn-outline-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Second card -->
-        <div class="col-md-4 mb-5">
-          <div class="card shadow border-0 p-3 h-100">
-            <div class="card-body text-center">
-              <h4 class="fw-bold text-uppercase mt-3">
-                <i class="bi bi-person-check"></i>Join Us
-              </h4>
-              <p class="text-muted">
-                Become a <strong>volunteer</strong> and help patrol the
-                community. Get training, experience, and be part of a great
-                team!
-              </p>
-              <a
-                href="/src/pages/volunteer.html"
-                class="btn btn-outline-success"
-                >Apply Now</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <!-- Third card -->
-        <div class="col-md-4 mb-5">
-          <div class="card shadow border-0 p-3 h-100">
-            <div class="card-body text-center">
-              <h4 class="fw-bold text-uppercase mt-3">
-                <i class="bi bi-person"></i>Join Us
-              </h4>
-              <p class="text-muted">
-                Become a <strong>volunteer</strong> and help patrol the
-                community. Get training, experience, and be part of a great
-                team!
-              </p>
-              <a href="volunteer.html" class="btn btn-outline-success"
-                >Apply Now</a
+              <a href="/src/pages/contact.html" class="btn btn-outline-warning"
+                >Contact Us</a
               >
             </div>
           </div>
@@ -229,28 +179,52 @@
 
       <!-- Carousel of sponsors -->
       <div class="sponsors-carousel">
+        <h1 class="fw-bold mt-5 pb-5">Our Sponsors</h1>
         <div class="sponsors-track">
-          <img src="/public/images/sponsors/ami.png" alt="Sponsor 1" />
-          <img src="/public/images/sponsors/caltex-logo.png" alt="Sponsor 2" />
           <img
-            src="/public/images/sponsors/police-nz-logo.png"
-            alt="Sponsor 3"
+            src="/public/images/sponsors/ami.png"
+            alt="Sponsor 1"
+            class="sponsor1"
           />
-          <img src="/public/images/sponsors/PWP.png" alt="Sponsor 4" />
-          <img src="/public/images/sponsors/red-steel.png" alt="Sponsor 5" />
+
+          <img
+            src="/public/images/sponsors/360-realty-logo.png"
+            alt="Sponsor 2"
+            class="sponsor2"
+          />
+          <img
+            src="/public/images/sponsors/HyundaiBayswater.png"
+            alt="Sponsor 3"
+            class="sponsor3"
+          />
+          <img
+            src="/public/images/sponsors/PWP.png"
+            alt="Sponsor 4"
+            class="sponsor4"
+          />
+          <img
+            src="/public/images/sponsors/red-steel.png"
+            alt="Sponsor 5"
+            class="sponsor5"
+          />
+          <img
+            src="/public/images/Heretaunga-Hastings-logo.png"
+            alt="Sponsor 6"
+            class="sponsor6"
+          />
         </div>
       </div>
     </main>
 
-    <footer class="bg-dark text-light pt-4">
+    <footer class="bg-dark-subtle text-light pt-4">
       <div class="container mt-4">
         <div class="row">
           <div class="col-md-4">
             <img
-              src="/public/images/Heretaunga-Hastings-logo.png"
+              src="/public/images/MainLogo.png"
               alt="Heretaunga Hastings Logo"
               class="mb-2"
-              width="100"
+              width="200"
             />
             <p class="text-white">
               Hastings Community Patrol - is a team of dedicated volunteers to
@@ -260,20 +234,20 @@
 
           <div class="col-md-4">
             <h5>Contacts</h5>
-            <p>Email:</p>
-            <p>Phone:</p>
-            <p>Address:</p>
+            <p>Email: hastings@cpnz.org.nz</p>
+            <p>
+              Address: Hastings Police Station, 102 Eastbourne Street West,
+              Hastings 4122
+            </p>
           </div>
 
           <div class="col-md-4">
             <h5>Follow us on social media</h5>
-            <a href="#" class="text-light me-2"
+            <a
+              href="https://www.facebook.com/hastings.patrol"
+              class="text-light me-2"
               ><i class="bi bi-facebook"></i
             ></a>
-            <a href="#" class="text-light me-2"
-              ><i class="bi bi-instagram"></i
-            ></a>
-            <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
           </div>
         </div>
         <hr class="bg-light" />

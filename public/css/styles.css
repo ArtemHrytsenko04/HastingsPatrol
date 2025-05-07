@@ -59,6 +59,7 @@ body {
   width: 100%;
   background: #f8f9fa;
   padding: 20px 0px;
+  margin-top: 1.5rem;
 }
 
 .sponsors-track {
@@ -73,9 +74,9 @@ body {
   object-fit: contain;
 }
 
-footer a:hover {
-  color: #ffc107;
-  transition: 0.3s;
+/* Footer styles */
+footer {
+  background-color: #343a40;
 }
 
 @keyframes scroll {
@@ -85,32 +86,4 @@ footer a:hover {
   to {
     transform: translateX(-100%);
   }
-}
-
-/* About us page styling */
-
-.hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("your-image.jpg") center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 80px 20px;
-}
-.partner-logo img {
-  max-width: 150px;
-  transition: transform 0.3s ease;
-}
-.partner-logo img:hover {
-  transform: scale(1.1);
-}
-
-/* Additional styles for card section on about us page */
-
-.card {
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }

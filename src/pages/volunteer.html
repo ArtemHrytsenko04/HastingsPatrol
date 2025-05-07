@@ -12,6 +12,8 @@
       crossorigin="anonymous"
     />
 
+    <link rel="stylesheet" href="/public/css/volunteer.css" />
+
     <title>Volunteer with us</title>
   </head>
   <body>
@@ -20,9 +22,9 @@
         <!-- Logo aligned on the left of the webpage -->
         <a class="navbar-brand" href="#">
           <img
-            src="/public/images/Heretaunga-Hastings-logo.png"
+            src="/public/images/MainLogo.png"
             alt="Logo"
-            width="80"
+            width="200"
             class="img-fluid"
           />
         </a>
@@ -76,8 +78,14 @@
                 >Contact</a
               >
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Donate</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/src/pages/donate.html"
+                >Donate</a
+              >
             </li>
           </ul>
         </div>
@@ -86,7 +94,7 @@
 
     <div class="container py-5">
       <!-- Main Heading -->
-      <h1 class="display-4 text-center fw-bold">Volunteer</h1>
+      <h1 class="display-4 text-center">Volunteer</h1>
       <p class="text-center text-muted">
         Our patrol members are fully trained to NZ Police and National Community
         Patrols New Zealand (CPNZ) protocols.
@@ -94,11 +102,11 @@
 
       <!-- Information Section -->
       <div class="card shadow-sm border-0 p-4 my-4">
-        <p>
+        <p class="lead">
           Volunteering with the HACP is a great way to help make your community
           safer.
         </p>
-        <p>
+        <p class="text-muted">
           We are looking for motivated and committed volunteers for at least one
           four-hour shift a month.
         </p>
@@ -106,7 +114,7 @@
 
       <!-- Requirements Section -->
       <div class="card shadow-sm border-0 p-4 my-4">
-        <h2 class="fw-bold">Requirements</h2>
+        <h2 class="display-5 pb-2">Requirements</h2>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">✔ 18 years or older</li>
           <li class="list-group-item">✔ Adhere to Police protocols</li>
@@ -122,7 +130,7 @@
 
       <!-- What We Offer Section -->
       <div class="card shadow-sm border-0 p-4 my-4">
-        <h2 class="fw-bold">What we offer</h2>
+        <h2 class="display-5 pb-2">What we offer</h2>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">✅ Online training modules</li>
           <li class="list-group-item">
@@ -133,20 +141,20 @@
       </div>
 
       <!-- Footer -->
-      <p class="text-muted text-center mt-4">
+      <p class="lead text-center mt-4">
         Previous experience is not required as on-the-job training is given.
       </p>
     </div>
 
-    <footer class="bg-dark text-light pt-4">
+    <footer class="bg-dark-subtle text-light pt-4">
       <div class="container mt-4">
         <div class="row">
           <div class="col-md-4">
             <img
-              src="/public/images/Heretaunga-Hastings-logo.png"
-              alt="Heretaunga Hastings Logo"
+              src="/public/images/MainLogo.png"
+              alt="CPNZ Logo"
               class="mb-2"
-              width="100"
+              width="200"
             />
             <p class="text-white">
               Hastings Community Patrol - is a team of dedicated volunteers to
@@ -165,13 +173,11 @@
 
           <div class="col-md-4">
             <h5>Follow us on social media</h5>
-            <a href="#" class="text-light me-2"
+            <a
+              href="https://www.facebook.com/hastings.patrol"
+              class="text-light me-2"
               ><i class="bi bi-facebook"></i
             ></a>
-            <a href="#" class="text-light me-2"
-              ><i class="bi bi-instagram"></i
-            ></a>
-            <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
           </div>
         </div>
         <hr class="bg-light" />

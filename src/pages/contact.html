@@ -9,6 +9,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="/public/css/contact.css" />
     <title>Contact Us</title>
   </head>
   <body>
@@ -17,9 +19,9 @@
         <!-- Logo aligned on the left of the webpage -->
         <a class="navbar-brand" href="#">
           <img
-            src="/public/images/Heretaunga-Hastings-logo.png"
+            src="/public/images/MainLogo.png"
             alt="Logo"
-            width="80"
+            width="200"
             class="img-fluid"
           />
         </a>
@@ -74,7 +76,12 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Donate</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/src/pages/donate.html"
+                >Donate</a
+              >
             </li>
           </ul>
         </div>
@@ -83,32 +90,32 @@
 
     <div class="container py-5">
       <!-- Main Heading -->
-      <h1 class="display-4 text-center fw-bold">Contact Us</h1>
+      <h1 class="display-4 text-center">Contact Us</h1>
 
-      <p class="text-center text-muted">
+      <p class="text-center lead">
         If it's an emergency or you are in danger, call
         <strong>111</strong> immediately.
       </p>
 
-      <p class="text-center">
+      <p class="text-center text-muted">
         Alternatively, contact the Police on <strong>105 (Ten-Five)</strong> for
         non-urgent incidents 24/7. You can also report to
         <a href="#" class="text-primary">105 online</a>.
       </p>
 
-      <p class="text-center">
+      <p class="text-center lead">
         Get in touch with us using the form below regarding volunteer
         opportunities, donations, events, and more.
       </p>
 
-      <p class="text-center">
+      <p class="text-center lead">
         You can also reach us via email:
         <a href="mailto:hastings@cpnz.org.nz" class="fw-bold text-primary"
           >hastings@cpnz.org.nz</a
         >
       </p>
 
-      <p class="text-center">
+      <p class="text-center lead">
         We are based at <strong>Hastings Police Station.</strong>
       </p>
 
@@ -199,7 +206,7 @@
         </form>
       </div>
 
-      <!-- Facebook Section -->
+      <!-- ALternative ways to find CPNZ -->
       <div class="text-center mt-4">
         <h3 class="fw-bold">Find us on Facebook:</h3>
         <a href="#" target="_blank">
@@ -212,6 +219,47 @@
         </a>
       </div>
     </div>
+
+    <footer class="bg-dark-subtle text-light pt-4">
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="/public/images/MainLogo.png"
+              alt="CPNZ Logo"
+              class="mb-2"
+              width="200"
+            />
+            <p class="text-white">
+              Hastings Community Patrol - is a team of dedicated volunteers to
+              make our community safer
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h5>Contacts</h5>
+            <p>Email: hastings@cpnz.org.nz</p>
+            <p>
+              Address: Hastings Police Station, 102 Eastbourne Street West,
+              Hastings 4122
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h5>Follow us on social media</h5>
+            <a
+              href="https://www.facebook.com/hastings.patrol"
+              class="text-light me-2"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </div>
+        </div>
+        <hr class="bg-light" />
+        <p class="text-center m-0">
+          © 2025 Hastings Community Patrol. All rights reserved.
+        </p>
+      </div>
+    </footer>
 
     <!--Bootstrap Popper-->
     <script
